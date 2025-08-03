@@ -182,7 +182,7 @@ def full_deobfuscation_all_variables(input_file, output_file):
     return variable_mappings
 
 if __name__ == "__main__":
-    input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
-    output_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
+    input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
+    output_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
     
     mappings = full_deobfuscation_all_variables(input_file, output_file)
