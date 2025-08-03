@@ -1,7 +1,7 @@
 import re
 
 # Read the file
-with open(r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk", 'r', encoding='utf-8') as f:
+with open(r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk", 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
 print("Finding and fixing Goto/Label pairs...")
@@ -61,7 +61,7 @@ for line in lines:
         fixed_lines.append(original_line)
 
 # Write the fixed file
-with open(r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk", 'w', encoding='utf-8') as f:
+with open(r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk", 'w', encoding='utf-8') as f:
     for line in fixed_lines:
         f.write(line + '\\n')
 
