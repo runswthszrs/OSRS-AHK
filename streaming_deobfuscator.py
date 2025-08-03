@@ -127,7 +127,7 @@ def streaming_deobfuscate(input_file, output_file):
     print(f"File saved: {output_file}")
 
 if __name__ == "__main__":
-    input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
-    output_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\STREAMING_DEOBFUSCATED.ahk"
+    input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
+    output_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\STREAMING_DEOBFUSCATED.ahk"
     
     streaming_deobfuscate(input_file, output_file)
