@@ -100,5 +100,5 @@ def fix_syntax_errors_in_place(file_path):
     print("Try running the file now")
 
 if __name__ == "__main__":
-    file_to_fix = r"C:\\Users\\hp\\Downloads\\SWS OSRS BOT 59.8\\COMPLETE_DEOBFUSCATED.ahk"
+    file_to_fix = r"D:\\Users\\hp\\Downloads\\SWS OSRS BOT 59.8\\COMPLETE_DEOBFUSCATED.ahk"
     fix_syntax_errors_in_place(file_to_fix)
