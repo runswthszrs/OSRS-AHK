@@ -143,7 +143,7 @@ def create_decoder_attempt(input_path):
     return var_defs, var_usage, patterns
 
 # Run the analysis
-input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
+input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
 var_defs, var_usage, patterns = create_decoder_attempt(input_file)
 
 print(f"\n=== Summary ===")
