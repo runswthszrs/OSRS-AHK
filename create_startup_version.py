@@ -113,7 +113,7 @@ def minimal_startup_fix(input_file, output_file):
     print(f"Use F1/F2 to test basic functions, F3 to exit")
 
 if __name__ == "__main__":
-    input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
-    output_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\STARTUP_READY.ahk"
+    input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
+    output_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\STARTUP_READY.ahk"
     
     minimal_startup_fix(input_file, output_file)
