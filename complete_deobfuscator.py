@@ -240,8 +240,8 @@ def attempt_decode_string(encoded_str):
 
 # Run complete deobfuscation
 if __name__ == "__main__":
-    input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
-    output_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
+    input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
+    output_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
     
     print("=== COMPLETE DEOBFUSCATION - NO LIMITATIONS ===")
     result = full_deobfuscate(input_file, output_file)
