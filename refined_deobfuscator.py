@@ -158,5 +158,5 @@ def save_refined_deobfuscation(input_path):
         return None
 
 # Run the refined deobfuscation
-input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
+input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
 save_refined_deobfuscation(input_file)
