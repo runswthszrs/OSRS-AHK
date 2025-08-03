@@ -141,9 +141,9 @@ def extract_working_functions(input_file, output_file):
     print(f"Created working functions file: {output_file}")
 
 if __name__ == "__main__":
-    original_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
-    fixed_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\SYNTAX_FIXED.ahk"
-    working_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\WORKING_FUNCTIONS.ahk"
+    original_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
+    fixed_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\SYNTAX_FIXED.ahk"
+    working_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\WORKING_FUNCTIONS.ahk"
     
     # Fix syntax issues
     fix_syntax_issues(original_file, fixed_file)
