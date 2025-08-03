@@ -136,8 +136,8 @@ def extract_working_bot_code(input_path, output_path):
     return bot_functions
 
 # Run the extraction
-input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
-output_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Extracted_Bot_Functions.ahk"
+input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
+output_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Extracted_Bot_Functions.ahk"
 
 print("Extracting functional bot code...")
 bot_functions = extract_working_bot_code(input_file, output_file)
