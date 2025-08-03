@@ -310,8 +310,8 @@ class AHKDeobfuscator:
         }
 
 def main():
-    input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
-    output_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\FULLY_DEOBFUSCATED.ahk"
+    input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
+    output_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\FULLY_DEOBFUSCATED.ahk"
     
     print("=== FULL AHK DEOBFUSCATION SCRIPT ===")
     print(f"Input: {input_file}")
