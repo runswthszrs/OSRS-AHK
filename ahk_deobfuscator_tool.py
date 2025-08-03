@@ -117,7 +117,7 @@ def save_deobfuscated_script(input_path, output_path=None):
 
 # Example usage:
 if __name__ == "__main__":
-    input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
+    input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\Sammich cracked LATEST.txt"
     
     # Process the file
     output_file = save_deobfuscated_script(input_file)
