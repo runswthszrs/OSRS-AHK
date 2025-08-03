@@ -1,7 +1,7 @@
 import re
 
 # Read the file
-with open(r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk", 'r', encoding='utf-8') as f:
+with open(r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk", 'r', encoding='utf-8') as f:
     content = f.read()
 
 print("Fixing broken Goto statements...")
@@ -21,7 +21,7 @@ for broken_goto in broken_gotos:
 
 print("Writing fixed file...")
 # Write back
-with open(r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk", 'w', encoding='utf-8') as f:
+with open(r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk", 'w', encoding='utf-8') as f:
     f.write(content)
 
 print("Fixed broken Goto statements")
