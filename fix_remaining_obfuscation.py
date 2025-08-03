@@ -97,9 +97,9 @@ def create_minimal_test_version(input_file, output_file):
     print(f"Test version created: {output_file}")
 
 if __name__ == "__main__":
-    input_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
-    fixed_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\FIXED_DEOBFUSCATED.ahk"
-    test_file = r"C:\Users\hp\Downloads\SWS OSRS BOT 59.8\TEST_BOT.ahk"
+    input_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\COMPLETE_DEOBFUSCATED.ahk"
+    fixed_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\FIXED_DEOBFUSCATED.ahk"
+    test_file = r"D:\Users\hp\Downloads\SWS OSRS BOT 59.8\TEST_BOT.ahk"
     
     # Fix the remaining obfuscation issues
     fix_remaining_obfuscation(input_file, fixed_file)
